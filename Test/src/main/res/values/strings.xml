@@ -2,7 +2,6 @@
 
     <string name="app_name">超级助手</string>
     <string name="five_game">五子棋</string>
-    <string name="dot_tv">:</string>
     
     <string-array name="months">
         <item >January</item>

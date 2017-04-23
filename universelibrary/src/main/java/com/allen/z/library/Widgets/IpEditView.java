@@ -1,6 +1,4 @@
-package com.allen.test.view;
-
-import com.allen.test.R;
+package com.allen.z.library.Widgets;
 
 import android.content.Context;
 import android.text.Editable;
@@ -13,6 +11,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
+import com.allen.z.library.R;
 
 public class IpEditView extends LinearLayout {
     EditText[] mIp;
