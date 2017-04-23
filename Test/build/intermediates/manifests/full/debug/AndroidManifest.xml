@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allen.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.DISABLE_STATUS_BAR" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.CONTROL_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 添加快捷方式 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <!-- 移除快捷方式 -->
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/TestTheme" >
+        <activity
+            android:name="com.allen.test.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.allen.test.demon.FaceDetect"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- ******************* Check  ***************************** -->
+        <activity
+            android:name="com.allen.test.check.Check"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.allen.test.check.LedCheck"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.allen.test.check.LcdDot"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.allen.test.check.GSensor"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.allen.test.check.touch.TSP_Bound_Grid_Mode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.check.touch.TSP_Dot_Mode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.check.touch.TSP_Grid_Mode"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- ******************* Demon  ***************************** -->
+        <activity
+            android:name="com.allen.test.demon.Demon"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+
+        </activity>
+        <activity
+            android:name="com.allen.test.demon.VectorDrawableActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.allen.test.demon.NotificationTestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.demon.WeatherDemon"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.demon.KeyguardTestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.demon.ImageEffectActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.effect.XferModeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.effect.XferModeTest"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.demon.ShortCutTest"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.allen.test.demon.WidgetProvider" >
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_info" >
+            </meta-data>
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.test.CLICK" />
+            </intent-filter>
+        </receiver>
+        <!-- ******************* Effect  ***************************** -->
+        <activity
+            android:name="com.allen.test.effect.Effect"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.effect.BaseRecyclerView"
+            android:exported="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.effect.ListViewAnimation"
+            android:exported="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.effect.DrawerLayoutActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- ******************* Mathod  ***************************** -->
+        <activity
+            android:name="com.allen.test.mathod.Method"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.mathod.PrintArray"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.mathod.MagicSquare"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.mathod.CubicBezierLineActivty"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- ******************* Info  ***************************** -->
+        <activity
+            android:name="com.allen.test.info.Info"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.info.LanguageInfo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.info.PackageListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.info.PackageInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/cust_theme" >
+        </activity>
+        <activity
+            android:name="com.allen.test.info.FrameWorkSourceActivity"
+            android:label="@string/app_name"
+            android:theme="@style/cust_theme" >
+        </activity>
+        <activity
+            android:name="com.allen.test.info.PackageSourceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.info.DisplayInfo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.info.SystemInfo"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- ******************* Tool  ***************************** -->
+
+        <activity
+            android:name="com.allen.test.tool.Tool"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.selector.EasySelector"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.platlogo.PlatLogoActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.platlogo.LLandActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:label="@string/lland"
+            android:launchMode="singleInstance"
+            android:process=":sweetsweetdesserts"
+            android:screenOrientation="locked"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.VirtulEvent"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.flashlight.FlashLight"
+            android:label="@string/app_name"
+            android:theme="@style/TestTheme.NoTitle" >
+        </activity>
+
+        <service
+            android:name="com.allen.test.tool.flashlight.FlashLightService"
+            android:label="@string/app_name" >
+        </service>
+
+        <activity
+            android:name="com.allen.test.tool.DPIvPX"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.SimCardHelper"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.GestureSettingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.ScreenFilterSetting"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.SecretCameraActicity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.Compass"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.cookbook.CookMenu"
+            android:label="@string/str_cook_book" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.cookbook.CookbootWelcome"
+            android:label="@string/str_cook_book" >
+
+            <!--
+            intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.login.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.login.MultipLogin"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.login.WebViewLogin"
+            android:label="@string/app_login"
+            android:theme="@style/TestTheme.NoTitle" >
+        </activity>
+        <activity
+            android:name="com.allen.test.tool.fileselector.FileSelector"
+            android:label="@string/file_selector"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.FILE_SELECTOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Hot word card -->
+        <receiver
+            android:name="com.allen.test.tool.hotspots.HotSpotsProvider"
+            android:label="@string/le_hot_spots" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.le.smartcard.hotword.update" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/hotspots_provider_info" />
+            <meta-data
+                android:name="leui.card.icon"
+                android:resource="@drawable/ic_launcher" />
+            <meta-data
+                android:name="leui.card.label"
+                android:resource="@string/le_hot_spots" />
+            <meta-data
+                android:name="leui.card.intent"
+                android:value="intent:#Intent;action=android.intent.action.MAIN;component=com.android.settings/com.letv.leui.settings.LeUIMainSettings;end" />
+        </receiver>
+
+        <!-- ******************* provider  ***************************** -->
+        <provider
+            android:name="com.allen.test.data.SelectorProvider"
+            android:authorities="com.allen.test.data.SelectorData"
+            android:exported="true" />
+        <provider
+            android:name="com.allen.test.tool.cookbook.data.CookbookProvider"
+            android:authorities="com.allen.test.tool.cookbook.data"
+            android:exported="true" />
+        <!-- ******************* service  ***************************** -->
+        <service
+            android:name="com.allen.test.service.StarDeam"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DREAM_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.allen.test.service.KeyguardService"
+            android:exported="true"
+            android:label="@string/app_name" >
+        </service>
+        <service
+            android:name="com.allen.test.service.RobMoneyService"
+            android:enabled="true"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility" />
+        </service>
+    </application>
+
+</manifest>

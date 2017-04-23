@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cookbook="http://schemas.android.com/apk/res/com.allen.test" >
+
+        <menu
+        cookbook:name="米糊"
+        cookbook:efficacy="花生与米糊做成糊扩大其营养"
+        cookbook:image="image/Lighthouse.jpg"
+        cookbook:season="2"
+        cookbook:usage="1.将大米、花生清洗干净后与姜片" />
+    
+    <menu
+        cookbook:name="花生米糊"
+        cookbook:efficacy="花生与米糊做成糊扩大其营养，对动脉硬化和高血压冠心病有预防作用，此糊经常食用，对提高记忆力也起到重要作用"
+        cookbook:image="image/Penguins.jpg"
+        cookbook:season="1"
+        cookbook:usage="1.将大米、花生清洗干净后与姜片一起放入豆浆桶内，杯体内加水至上、下水位线之间；\n  直接把机头放到杯体上，接通电源，按选择键，再按开关键，十几分钟后自动做好花生米糊" >
+
+        <rate
+            cookbook:rate_name="@string/str_water"
+            cookbook:rate_weight="3"
+            cookbook:rate_water="true" />
+        <rate
+            cookbook:rate_name="@string/str_bean"
+            cookbook:rate_weight="2" />
+        <rate
+            cookbook:rate_name="@string/str_rice"
+            cookbook:rate_weight="6" />
+    </menu>
+
+
+</cookbook>

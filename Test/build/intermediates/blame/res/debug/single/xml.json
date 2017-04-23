@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\xml\\appwidget_info.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\xml\\appwidget_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\xml\\default_cookitem.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\xml\\default_cookitem.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\appwidget_info.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\xml\\appwidget_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\hotspots_provider_info.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\xml\\hotspots_provider_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\xml\\accessibility.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\xml\\accessibility.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\xml\\hotspots_provider_info.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\xml\\hotspots_provider_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\default_cookitem.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\xml\\default_cookitem.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\accessibility.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\xml\\accessibility.xml"
+    }
+]

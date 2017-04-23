@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tw_action_bar_back">#016679</color>
+    <color name="tw_button_back">#0199ac</color>
+    <color name="tw_action_bar_back_press">#0000ff</color>
+    <color name="cyan">#00ffff</color>
+    <color name="yellow">#aaffff00</color> 
+    <color name="process_bg">#019965</color>   
+    <color name="process">#ffffd300</color> 
+    <color name="sa_green">#ff00d300</color> 
+    <color name="vivid_yellow">#d3d3d300</color>
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+       
+    <dimen name="menu_textsize">18dp</dimen> 
+    <dimen name="small_circle">120dp</dimen> 
+    
+    <string-array name="default_menu">
+        <item>餐厅 1 </item>
+        <item>餐厅 2 </item>
+        <item>餐厅 3 </item>
+        <item>餐厅 4 </item>
+        
+    </string-array>
+
+</resources>

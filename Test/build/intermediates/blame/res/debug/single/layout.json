@@ -1,0 +1,418 @@
+[
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\star_dream_view.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\star_dream_view.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\face.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_drawerlayout.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_drawerlayout.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\file_selector_layout.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\file_selector_layout.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\weather_demon_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\weather_demon_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\multip_login_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\multip_login_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cook_menu_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\cook_menu_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_locale.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\item_list_locale.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\easy_selector.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\easy_selector.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\hotspots_widget_layout.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\hotspots_widget_layout.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_feature.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\item_list_feature.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_effect_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\image_effect_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\assistant_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recycler_view.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_recycler_view.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dpi_px_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\dpi_px_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\package_info_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\package_info_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listview_animation.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_listview_animation.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gamer_view.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\gamer_view.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_locale.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\item_list_locale.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weather_demon_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\weather_demon_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\item_list_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\package_source_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\package_source_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\five_main.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\five_main.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_test.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\notification_test.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recycler_view.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_recycler_view.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_network_info.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_network_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hotspots_widget_layout.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\hotspots_widget_layout.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\package_list_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\package_list_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\package_info_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\package_info_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_app.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\item_list_app.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\image_item.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\image_item.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ip_editor.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_ip_editor.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_language_info.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_language_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\touch_test_pass.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\touch_test_pass.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\star_dream_view.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\star_dream_view.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\cook_menu_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\cook_menu_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xfermode_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\xfermode_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flashlight_float.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\flashlight_float.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\flashlight_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\flashlight_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\ip_editer_container.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\ip_editer_container.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_item2.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\image_item2.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\screen_custom_title.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\screen_custom_title.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\five_main.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\five_main.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cubic_bezier.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_cubic_bezier.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ip_editor.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_ip_editor.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cubic_bezier.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_cubic_bezier.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\image_effect_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\image_effect_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\keyguard_test.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\keyguard_test.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\gamer_view.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\gamer_view.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_login.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\item_list_login.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shortcut_test.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_shortcut_test.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lland.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\lland.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vector_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\vector_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_feature.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\item_list_feature.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\easy_selector.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\easy_selector.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_selector_layout.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\file_selector_layout.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\face.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\face.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\webview_login_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\webview_login_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ip_editer_container.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\ip_editer_container.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\image_item2.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\image_item2.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\keyguard_test.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\keyguard_test.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webview_login_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\webview_login_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_item.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\image_item.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\print_arry.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\print_arry.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shortcut_test.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_shortcut_test.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\dpi_px_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\dpi_px_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\screen_custom_title.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\screen_custom_title.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_info.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_display_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\flashlight_float.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\flashlight_float.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\keyguard_slider_layout.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\keyguard_slider_layout.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_info.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_display_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_app.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\item_list_app.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listview_animation.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_listview_animation.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\package_source_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\package_source_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\print_arry.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\print_arry.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\package_list_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\package_list_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multip_login_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\multip_login_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\item_list_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\lland.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\lland.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_drawerlayout.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_drawerlayout.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_network_info.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\activity_network_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\gsensor.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\gsensor.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\filechooser_gridview_item.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\filechooser_gridview_item.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cook_item.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\cook_item.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gsensor.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\gsensor.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\xfermode_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\xfermode_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\notification_test.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\notification_test.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\touch_test_pass.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\touch_test_pass.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flashlight_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\flashlight_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_login.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\item_list_login.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\keyguard_slider_layout.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\keyguard_slider_layout.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\vector_activity.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\vector_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\activity_language_info.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\activity_language_info.xml"
+    },
+    {
+        "merged": "I:\\works\\Test1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_activity.xml",
+        "source": "I:\\works\\Test1\\app\\src\\main\\res\\layout\\assistant_activity.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\filechooser_gridview_item.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\filechooser_gridview_item.xml"
+    },
+    {
+        "merged": "I:\\works\\Universe\\Test\\build\\intermediates\\res\\merged\\debug\\layout\\cook_item.xml",
+        "source": "I:\\works\\Universe\\Test\\src\\main\\res\\layout\\cook_item.xml"
+    }
+]

@@ -1,0 +1,59 @@
+<resources>
+
+    <string name="app_name">超级助手</string>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="weeks">
+        <item></item>
+        <item>Sundy</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string name="str_cook_book">豆浆食谱</string>
+    <string name="str_bean">大豆</string>
+    <string name="str_water">水</string>
+    <string name="str_rice">大米</string>
+    <string name="str_efficacy">"功效："</string>
+    <string name="str_usage">"用法："</string>
+    <string name="str_rate">"用料："</string>
+    <string name="beijing">"北京"</string>
+    <string name="shanghai">"上海"</string>
+    <string name="haerbin">"哈尔滨"</string>
+    <string name="changchun">"长春"</string>
+    <string name="shenyang">"沈阳"</string>
+    <string name="guangzhou">"广州"</string>
+    <string name="file_selector">文件选择</string>
+    <string name="pre">上一个</string>
+    <string name="next">下一个</string>
+    <string name="auto_login">自动登录</string>
+    <string name="input_rate">输入间隔秒数</string>
+    <string name="app_login">登录器</string>
+    <string name="set_continue">继续游戏</string>
+    <string name="set_redo">悔棋</string>
+    <string name="set_new">新游戏</string>
+    <string name="set_exit">退出游戏</string>
+    <string name="set_black_sucess">黑方胜！</string>
+    <string name="set_white_sucess">白方胜！</string>
+    <string name="set_timeout">对手超时！</string>
+    <string name="set_welcome">祝您游戏愉快！</string>
+    <string name="le_hot_spots">微博热搜</string>
+    <string name="le_hot_spots_title">微博热搜榜</string>
+</resources>

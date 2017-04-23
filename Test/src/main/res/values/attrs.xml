@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="rate">
+        <attr name="rate_name" format="string" />
+        <attr name="rate_weight" format="integer" />
+        <attr name="rate_water" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="menu">
+        <attr name="image" format="string" />
+        <attr name="name" format="string|reference" />
+        <attr name="efficacy" format="string" />
+        <attr name="rate" format="reference" />
+        <attr name="usage" format="string" />
+        <attr name="season" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CubicBezierInterpolator">
+        <attr name="startX" format="float" />
+        <attr name="startY" format="float" />
+        <attr name="endX" format="float" />
+        <attr name="endY" format="float" />
+    </declare-styleable>
+
+</resources>

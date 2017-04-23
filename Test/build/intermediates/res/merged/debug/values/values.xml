@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_menu">
+        <item>餐厅 1 </item>
+        <item>餐厅 2 </item>
+        <item>餐厅 3 </item>
+        <item>餐厅 4 </item>
+        
+    </string-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="weeks">
+        <item> </item>        
+        <item>Sundy</item>        
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+    <color name="LowPowerColor">#ffff0000</color>
+    <color name="PowerColor">#ffffffff</color>
+    <color name="SecondsColor">#ffffffff</color>
+    <color name="cyan">#00ffff</color>
+    <color name="process">#ffffd300</color>
+    <color name="process_bg">#019965</color>
+    <color name="sa_green">#ff00d300</color>
+    <color name="tw_action_bar_back">#016679</color>
+    <color name="tw_action_bar_back_press">#0000ff</color>
+    <color name="tw_button_back">#0199ac</color>
+    <color name="vivid_yellow">#d3d3d300</color>
+    <color name="yellow">#aaffff00</color>
+    <declare-styleable name="CubicBezierInterpolator"><attr format="float" name="startX"/><attr format="float" name="startY"/><attr format="float" name="endX"/><attr format="float" name="endY"/></declare-styleable>
+    <declare-styleable name="menu"><attr format="string" name="image"/><attr format="string|reference" name="name"/><attr format="string" name="efficacy"/><attr format="reference" name="rate"/><attr format="string" name="usage"/><attr format="integer" name="season"/></declare-styleable>
+    <declare-styleable name="rate"><attr format="string" name="rate_name"/><attr format="integer" name="rate_weight"/><attr format="boolean" name="rate_water"/></declare-styleable>
+    <dimen name="G">30dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="boost_dv">350dp</dimen>
+    <dimen name="bound_size">180px</dimen>
+    <dimen name="building_height_min">20dp</dimen>
+    <dimen name="building_width_max">250dp</dimen>
+    <dimen name="building_width_min">20dp</dimen>
+    <dimen name="cloud_size_max">100dp</dimen>
+    <dimen name="cloud_size_min">10dp</dimen>
+    <dimen name="horizontal_grap">5dp</dimen>
+    <dimen name="hud_z">35dp</dimen>
+    <dimen name="max_v">1000dp</dimen>
+    <dimen name="menu_textsize">18dp</dimen>
+    <dimen name="moon_size">30dp</dimen>
+    <dimen name="obstacle_gap">170dp</dimen>
+    <dimen name="obstacle_height_min">40dp</dimen>
+    <dimen name="obstacle_spacing">380dp</dimen>
+    <dimen name="obstacle_stem_width">12dp</dimen>
+    <dimen name="obstacle_width">90dp</dimen>
+    <dimen name="obstacle_z">18dp</dimen>
+    <dimen name="player_hit_size">40dp</dimen>
+    <dimen name="player_size">40dp</dimen>
+    <dimen name="player_z">18dp</dimen>
+    <dimen name="player_z_boost">20dp</dimen>
+    <dimen name="right_margin">120dp</dimen>
+    <dimen name="scenery_z">6dp</dimen>
+    <dimen name="small_circle">120dp</dimen>
+    <dimen name="star_size_max">5dp</dimen>
+    <dimen name="star_size_min">3dp</dimen>
+    <dimen name="sun_size">45dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="translation_per_sec">100dp</dimen>
+    <dimen name="vertical_grap">5dp</dimen>
+    <string name="app_name">超级助手</string>
+    <string name="dot_tv">:</string>
+    <string name="five_game">五子棋</string>
+    <string name="le_hot_spots">Hot spots</string>
+    <string name="le_hot_spots_title">Hot spots</string>
+    <string name="lland">L Land</string>
+    <style name="AppBaseTheme" parent="android:Theme.DeviceDefault">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="ButtonStyle">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">#00ffff</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#016679</item>
+    </style>
+    <style name="HotSpotsItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#33000000</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="ImageViewStyle">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="IpDotStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:hint">"0"</item>
+    </style>
+    <style name="IpEditorStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">3</item>
+        <item name="android:hint">"0"</item>
+    </style>
+    <style name="MenuButtonStyle">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="TestTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="TestTheme.NoTitle" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="TimeViewStyle">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginRight">@dimen/vertical_grap</item>
+    </style>
+    <style name="cust_theme" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+</resources>
