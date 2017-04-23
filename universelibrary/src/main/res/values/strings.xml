@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UniverseLibrary</string>
+    <string name="dot_tv">:</string>
 </resources>
