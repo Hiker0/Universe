@@ -1,10 +1,4 @@
-package com.allen.test.util;
-
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+package com.allen.z.library.Utils;
 
 import android.app.Activity;
 import android.content.res.Resources;
@@ -14,10 +8,16 @@ import android.graphics.Canvas;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 public class ImageUtil {
 
 	/**
-	 * ´Ó×ÊÔ´ÖÐ»ñÈ¡Bitmap
+	 * ï¿½ï¿½ï¿½ï¿½Ô´ï¿½Ð»ï¿½È¡Bitmap
 	 * 
 	 * @param act
 	 * @param resId
@@ -29,7 +29,7 @@ public class ImageUtil {
 	}
 
 	/**
-	 * Bitmap ×ª»»³É byte Êý×é
+	 * Bitmap ×ªï¿½ï¿½ï¿½ï¿½ byte ï¿½ï¿½ï¿½ï¿½
 	 * 
 	 * @param bmp
 	 * @return
@@ -41,7 +41,7 @@ public class ImageUtil {
 	}
 
 	/**
-	 * Êý×é×ª»»³É Bitmap
+	 * ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ Bitmap
 	 * 
 	 * @param buffer
 	 * @return
@@ -51,7 +51,7 @@ public class ImageUtil {
 	}
 
 	/**
-	 * Bitmap ×ª»»³É Drawable
+	 * Bitmap ×ªï¿½ï¿½ï¿½ï¿½ Drawable
 	 * 
 	 * @param bmp
 	 * @return
@@ -62,7 +62,7 @@ public class ImageUtil {
 	}
 
 	/**
-	 * BitmapDrawable ×ª»»³É Bitmap
+	 * BitmapDrawable ×ªï¿½ï¿½ï¿½ï¿½ Bitmap
 	 * 
 	 * @param drawable
 	 * @return
@@ -73,7 +73,7 @@ public class ImageUtil {
 	}
 
 	/**
-	 * ½«Drawable×ª»¯ÎªBitmap
+	 * ï¿½ï¿½Drawable×ªï¿½ï¿½ÎªBitmap
 	 * 
 	 * @param drawable
 	 * @return

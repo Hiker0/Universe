@@ -26,4 +26,5 @@ dependencies {
     compile files('libs/recyclerview-v7-22.jar')
     compile files('libs/support-v4-22.jar')
     compile files('libs/support-v4-23.jar')
+    compile project(':universelibrary')
 }

@@ -1,9 +1,9 @@
-package com.allen.test.util;
+package com.allen.z.library.Utils;
 
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
-public class Uitls {
+public class PxUitls {
 	public static float dpiFromPx(int size, DisplayMetrics metrics){
 	    float densityRatio = (float) metrics.densityDpi / DisplayMetrics.DENSITY_DEFAULT;
 	    return (size / densityRatio);
