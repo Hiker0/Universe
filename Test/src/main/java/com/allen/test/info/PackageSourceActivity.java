@@ -39,6 +39,7 @@ import android.widget.Toast;
 import com.allen.test.R;
 import com.allen.test.util.ImageItem;
 import com.allen.test.view.ImageItemView;
+import com.allen.z.library.utils.ImageUtil;
 
 public class PackageSourceActivity extends Activity implements OnClickListener, OnItemClickListener, OnScrollListener {
 	private final static String TAG = "PackageSourceActivity";  

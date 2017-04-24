@@ -1,4 +1,4 @@
-package com.allen.z.library.Widgets;
+package com.allen.z.library.widgets;
 
 import android.content.Context;
 import android.text.Editable;

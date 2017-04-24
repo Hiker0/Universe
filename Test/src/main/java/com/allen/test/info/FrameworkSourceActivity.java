@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import com.allen.test.R;
 import com.allen.test.util.ImageItem;
 import com.allen.test.view.ImageItemView;
+import com.allen.z.library.utils.ImageUtil;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

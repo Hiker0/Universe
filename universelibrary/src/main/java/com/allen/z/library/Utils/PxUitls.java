@@ -1,4 +1,4 @@
-package com.allen.z.library.Utils;
+package com.allen.z.library.utils;
 
 import android.util.DisplayMetrics;
 import android.util.TypedValue;

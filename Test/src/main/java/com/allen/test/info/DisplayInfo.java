@@ -13,9 +13,8 @@ import android.view.Display;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
-
+import com.allen.z.library.utils.PxUitls;
 import com.allen.test.R;
-import com.allen.test.util.Uitls;
 
 public class DisplayInfo extends Activity {
     final static String TAG="DisplayInfo";
@@ -94,7 +93,7 @@ public class DisplayInfo extends Activity {
 				String content = s.toString();
 				if(content != null && content.length()>0){
 					float size = Float.parseFloat(content);
-					int px = Uitls.pxFromDp(size, dm);
+					int px = PxUitls.pxFromDp(size, dm);
 					pxEdit.removeTextChangedListener(pxWatcher);
 					pxEdit.setText(px+"");
 					pxEdit.addTextChangedListener(pxWatcher);
@@ -124,7 +123,7 @@ public class DisplayInfo extends Activity {
 				String content = s.toString();
 				if(content != null && content.length()>0){
 					int px = Integer.parseInt(content);
-					float dp = Uitls.dpiFromPx(px, dm);
+					float dp = PxUitls.dpiFromPx(px, dm);
 					dpEdit.removeTextChangedListener(dpWatcher);
 					dpEdit.setText(dp+"");
 					dpEdit.addTextChangedListener(dpWatcher);

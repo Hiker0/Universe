@@ -87,7 +87,7 @@ public class BaseRecyclerView extends Activity implements OnClickListener {
              notifyItemRemoved(position);
          }
 
-         //填充onCreateViewHolder方法返回的holder中的控件
+
          @Override
          public void onBindViewHolder(MyViewHolder holder, final int position) {
                
@@ -104,7 +104,7 @@ public class BaseRecyclerView extends Activity implements OnClickListener {
                holder.t_image.setBackgroundColor(0xff556600);
          }
 
-         //重写onCreateViewHolder方法，返回一个自定义的ViewHolder
+
          @Override
          public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
                

@@ -59,7 +59,7 @@ public class TSP_Grid_Mode extends Activity {
 		try {
 			Class<?> statusBarManager = Class
 					.forName("android.app.StatusBarManager");
-			Method expand = statusBarManager.getMethod("disable", int.class); // getMethod("collapse")似乎有点效果
+			Method expand = statusBarManager.getMethod("disable", int.class);
 			expand.invoke(service, 0x00000001);
 		} catch (Exception e) {
 			e.printStackTrace();

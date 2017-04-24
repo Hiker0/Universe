@@ -44,21 +44,11 @@ public class LeCubicBezierInterpolator implements Interpolator {
     }
 
     /**
-
-     * 璁剧疆涓棿涓や釜鎺у埗鐐�.<br>
-
-     * 鍦ㄧ嚎宸ュ叿: http://cubic-bezier.com/<br>
-
      *
-
      * @param x1
-
      * @param y1
-
      * @param x2
-
      * @param y2
-
      */
 
     public  LeCubicBezierInterpolator(float x1, float y1, float x2, float y2) {
@@ -79,8 +69,6 @@ public class LeCubicBezierInterpolator implements Interpolator {
     public float getInterpolation(float input) {
 
         float t = input;
-
-        // 杩戜技姹傝Вt鐨勫�糩0,1]
 
         for (int i = mLastI; i < ACCURACY; i++) {
 
@@ -115,16 +103,7 @@ public class LeCubicBezierInterpolator implements Interpolator {
 
 
     /**
-
-     * 姹備笁娆¤礉濉炲皵鏇茬嚎(鍥涗釜鎺у埗鐐�)涓�涓偣鏌愪釜缁村害鐨勫��.<br>
-
-     * 鍙傝�冭祫鏂�: <em> http://devmag.org.za/2011/04/05/bzier-curves-a-tutorial/ </em>
-
-     *
-
      * @param t
-
-     *            鍙栧�糩0, 1]
 
      * @param value0
 
@@ -153,8 +132,6 @@ public class LeCubicBezierInterpolator implements Interpolator {
         double uuu = uu * u;
 
         double ttt = tt * t;
-
-
 
         value = uuu * value0;
 
