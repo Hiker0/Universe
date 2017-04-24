@@ -21,7 +21,7 @@ public class ListViewAnimation extends Activity implements OnClickListener {
 	private ListView mListView;
 	private Animation animation;
 	private LayoutAnimationController controller;
-	private String[] arry = { "Ò»", "¶þ", "Èý", "ËÄ", "Îå", "Áù" };
+	private String[] arry = { "ä¸€", "äºŒ", "ä¸‰", "å››", "äº”", "å…­" };
 	private ArrayAdapter<String> adapter;
 
 	protected void onCreate(Bundle savedInstanceState) {
@@ -51,14 +51,14 @@ public class ListViewAnimation extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View arg0) {
-		// LayoutAnimationController.ORDER_NORMAL; Ë³ÐòÏÔÊ¾
-		// LayoutAnimationController.ORDER_REVERSE;·´ÏÔÊ¾
-		// LayoutAnimationController.ORDER_RANDOM; Ëæ»úÏÔÊ¾
+		// LayoutAnimationController.ORDER_NORMAL; Ë³ï¿½ï¿½ï¿½ï¿½Ê¾
+		// LayoutAnimationController.ORDER_REVERSE;ï¿½ï¿½ï¿½ï¿½Ê¾
+		// LayoutAnimationController.ORDER_RANDOM; ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
 		switch (arg0.getId()) {
 		case R.id.btn_translate:
 			animation = new TranslateAnimation(-50f, 0f, 0f, 0f);
 			animation.setDuration(500);
-			//1fÎªÑÓÊ±
+			//1fÎªï¿½ï¿½Ê±
 			controller = new LayoutAnimationController(animation, 1f);
 			controller.setOrder(LayoutAnimationController.ORDER_NORMAL);
 			mListView.setLayoutAnimation(controller);

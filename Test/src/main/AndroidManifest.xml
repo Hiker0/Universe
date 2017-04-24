@@ -35,6 +35,7 @@
     <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
 
     <application
+        android:name=".DaoApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -122,7 +123,11 @@
             android:name="com.allen.test.demon.KeyguardTestActivity"
             android:label="@string/app_name" >
         </activity>
-        
+        <activity
+            android:name="com.allen.test.demon.GreenDaoActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" >
+        </activity>
         <activity
             android:name="com.allen.test.demon.ImageEffectActivity"
             android:label="@string/app_name" >
@@ -137,6 +142,7 @@
             android:hardwareAccelerated="false"
             android:label="@string/app_name" >
         </activity>
+
         <activity
             android:name="com.allen.test.demon.ShortCutTest"
             android:hardwareAccelerated="false"

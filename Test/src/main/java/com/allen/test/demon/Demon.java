@@ -22,6 +22,7 @@ public class Demon extends Activity {
 	ArrayList<String> list = new ArrayList<String>();;
 	
 	Class[] classes = {
+			GreenDaoActivity.class,
 	        KeyguardTestActivity.class,
 			NotificationTestActivity.class,
 			WeatherDemon.class,

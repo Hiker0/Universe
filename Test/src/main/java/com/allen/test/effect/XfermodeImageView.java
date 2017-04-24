@@ -37,7 +37,7 @@ public class XfermodeImageView extends ImageView {
 	  protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 	    // TODO Auto-generated method stub
 	    super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-	    //如果类型是圆形，则强制设置view的宽高一致，取宽高的较小值 
+
 	    mWidth = getMeasuredWidth();
 	    mHeight = getMeasuredHeight();
 	    if(mSrc == null){
@@ -108,12 +108,10 @@ public class XfermodeImageView extends ImageView {
 
 	}
 	
-	/**
-	 * 绘制不同的图形Bitmap
-	 */
+
 	private Bitmap getDrawBitmap(int width, int height,int mType,int color) {
 		Bitmap bitmap = null;
-		if (mType == TYPE_CIRCLE) {// 绘制圆形
+		if (mType == TYPE_CIRCLE) {
 			bitmap = Bitmap.createBitmap(width, width,
 					Bitmap.Config.ARGB_8888);
 			Canvas canvas = new Canvas(bitmap);
@@ -121,7 +119,7 @@ public class XfermodeImageView extends ImageView {
 			paint.setColor(color);
 			canvas.drawCircle(width / 2, width / 2, width / 2,
 					paint);
-		} else if (mType == TYPE_ROUND) {// 绘制圆角矩形
+		} else if (mType == TYPE_ROUND) {
 			bitmap = Bitmap.createBitmap(width, height,
 					Bitmap.Config.ARGB_8888);
 			Canvas canvas = new Canvas(bitmap);

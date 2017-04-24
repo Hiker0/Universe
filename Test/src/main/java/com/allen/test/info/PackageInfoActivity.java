@@ -127,7 +127,7 @@ public class PackageInfoActivity extends Activity implements OnClickListener {
 
 	}
 
-	// 系统函数，字符串转换 long -String (kb)
+
 	private String formateFileSize(long size) {
 		return Formatter.formatFileSize(PackageInfoActivity.this, size);
 	}

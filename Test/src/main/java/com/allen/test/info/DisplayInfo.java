@@ -51,19 +51,19 @@ public class DisplayInfo extends Activity {
         display.getCurrentSizeRange(smallestSize, largestSize);
         
            
-        float density  = dm.density;        // ÆÁÄ»ÃÜ¶È£¨ÏñËØ±ÈÀý£º0.75/1.0/1.5/2.0£© 
-        int densityDPI = dm.densityDpi;     // ÆÁÄ»ÃÜ¶È£¨Ã¿´çÏñËØ£º120/160/240/320£© 
+        float density  = dm.density;
+        int densityDPI = dm.densityDpi;
         float xdpi = dm.xdpi;            
         float ydpi = dm.ydpi;
         
-        widthView.setText("ÆÁÄ»¿í¶È£º"+xdpi+" ("+size.x+"px)");
-        heightView.setText("ÆÁÄ»³¤¶È£º"+ydpi+" ("+size.y+"px)");
-        widthView.setText("ÆÁÄ»¿í¶È£º"+xdpi+" ("+size.x+"px)");
-        heightView.setText("ÆÁÄ»³¤¶È£º"+ydpi+" ("+size.y+"px)");
+        widthView.setText("ï¿½ï¿½Ä»ï¿½ï¿½È£ï¿½"+xdpi+" ("+size.x+"px)");
+        heightView.setText("ï¿½ï¿½Ä»ï¿½ï¿½ï¿½È£ï¿½"+ydpi+" ("+size.y+"px)");
+        widthView.setText("ï¿½ï¿½Ä»ï¿½ï¿½È£ï¿½"+xdpi+" ("+size.x+"px)");
+        heightView.setText("ï¿½ï¿½Ä»ï¿½ï¿½ï¿½È£ï¿½"+ydpi+" ("+size.y+"px)");
         
-        widthrange.setText("¿í¶È·¶Î§£¨px£©:" +smallestSize.x+" - "+ largestSize.x);
-        heightrange.setText("¸ß¶È·¶Î§£¨px£©:" +smallestSize.y+" - "+ largestSize.y);
-        densityView.setText("ÆÁÄ»ÃÜ¶È£º"+density+" ("+densityDPI+")");
+        widthrange.setText("ï¿½ï¿½È·ï¿½Î§ï¿½ï¿½pxï¿½ï¿½:" +smallestSize.x+" - "+ largestSize.x);
+        heightrange.setText("ï¿½ß¶È·ï¿½Î§ï¿½ï¿½pxï¿½ï¿½:" +smallestSize.y+" - "+ largestSize.y);
+        densityView.setText("ï¿½ï¿½Ä»ï¿½Ü¶È£ï¿½"+density+" ("+densityDPI+")");
         initEditView();
     }
     
