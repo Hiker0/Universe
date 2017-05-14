@@ -3,6 +3,7 @@ package com.allen.test.demon;
 import java.util.ArrayList;
 
 import com.allen.test.R;
+import com.allen.test.demon.Rxjava.RxJavaActivity;
 import com.allen.test.effect.XferModeActivity;
 import com.allen.test.effect.XferModeTest;
 
@@ -32,6 +33,7 @@ public class Demon extends Activity {
 			XferModeActivity.class,
 			XferModeTest.class,
 			ShortCutTest.class,
+			RxJavaActivity.class,
 	};
 	
 	

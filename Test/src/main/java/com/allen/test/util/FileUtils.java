@@ -20,13 +20,13 @@ public class FileUtils {
 	}
 
 	public FileUtils() {
-		// 得到当前外部存储设备的目录
+		//
 		// /SDCARD
 		SDPATH = Environment.getExternalStorageDirectory() + "/";
 	}
 
 	/**
-	 * 在SD卡上创建文件
+	 *
 	 * 
 	 * @throws IOException
 	 */
@@ -37,7 +37,7 @@ public class FileUtils {
 	}
 
 	/**
-	 * 在SD卡上创建目录
+	 *
 	 * 
 	 * @param dirName
 	 */
@@ -48,7 +48,7 @@ public class FileUtils {
 	}
 
 	/**
-	 * 判断SD卡上的文件夹是否存在
+	 *
 	 */
 	public boolean isFileExist(String fileName) {
 		File file = new File(SDPATH + fileName);
@@ -56,7 +56,7 @@ public class FileUtils {
 	}
 
 	/**
-	 * 将一个InputStream里面的数据写入到SD卡中
+	 *
 	 */
 	public File write2SDFromInput(String path, String fileName,
 			InputStream input) {
@@ -84,7 +84,7 @@ public class FileUtils {
 	}
 
 	/**
-	 * 将一个String里面的数据写入到SD卡中
+	 *
 	 */
 	public File write2SDFromInput(String path, String fileName, String input) {
 		File file = null;
@@ -107,7 +107,7 @@ public class FileUtils {
 		return file;
 	}
 	/*
-	 * 写入到内部存储，只需要传文件名如：a.html
+	 *
 	 * */
 	public void write2InnerStorage(String path, String str, Context context) {
 		try {
@@ -132,7 +132,7 @@ public class FileUtils {
 		}
 	}
 	/*
-	 * 从内部存储读取，只需要传文件名如：a.html
+	 *
 	 * */
 	public String readInnerFile(String path, Context context) {
 		try {

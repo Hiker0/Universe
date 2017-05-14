@@ -46,7 +46,7 @@ public class CookbookProvider extends ContentProvider {
             break;
         case CookbookData.MenuColumns.MENU_ID:
             String textId = uri.getPathSegments().get(1);
-            // [_id=4] »ò [id=4 AND Author=app1]
+
             count = db.delete(
                     CookbookData.MenuColumns.TBL_NAME,
                     CookbookData.MenuColumns._ID
@@ -61,7 +61,7 @@ public class CookbookProvider extends ContentProvider {
             break;
         case CookbookData.RateColumns.RATE_ID:
             String text = uri.getPathSegments().get(1);
-            // [_id=4] »ò [id=4 AND Author=app1]
+            //
             count = db.delete(
                     CookbookData.RateColumns.TBL_NAME,
                     CookbookData.RateColumns._ID

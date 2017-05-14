@@ -22,7 +22,7 @@ public class WeiboUtil {
 	}
 
 	/**
-	 * unicode ×ª×Ö·û´®
+	 *
 	 */
 	public static String unicode2String(String unicode) {
 
@@ -32,10 +32,10 @@ public class WeiboUtil {
 
 		for (int i = 1; i < hex.length; i++) {
 
-			// ×ª»»³öÃ¿Ò»¸ö´úÂëµã
+			// ×ªï¿½ï¿½ï¿½ï¿½Ã¿Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			int data = Integer.parseInt(hex[i], 16);
 
-			// ×·¼Ó³Éstring
+			// ×·ï¿½Ó³ï¿½string
 			string.append((char) data);
 		}
 

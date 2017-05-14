@@ -49,7 +49,7 @@ public class WebViewLogin extends Activity implements OnClickListener,
     final static String FILE_SELECTOR_ACTION =  "android.intent.action.FILE_SELECTOR";
     final static String INFO_FILE =  "xnw.info";
     final static int REQUEST_CODE = 100;
-    private WebView mPreview; // 声明WebView组件的对象
+    private WebView mPreview; //
     private ArrayList<Loginfo> mLists;
     private int mCurrent = 0;
     private View infoContainer = null;
@@ -86,10 +86,10 @@ public class WebViewLogin extends Activity implements OnClickListener,
         setContentView(R.layout.webview_login_activity);
         mRoot = (FrameLayout) findViewById(R.id.root);
 
-        mPreview = (WebView) findViewById(R.id.preview); // 获取WebView组件
-        mPreview.getSettings().setJavaScriptEnabled(true); // 设置JavaScript可用
-        mPreview.setWebChromeClient(new WebChromeClient()); // 处理JavaScript对话框
-        mPreview.setWebViewClient(new WebViewClient()); // 处理各种通知和请求事件，如果不使用该句代码，将使用内置浏览器访问网页
+        mPreview = (WebView) findViewById(R.id.preview); //
+        mPreview.getSettings().setJavaScriptEnabled(true); //
+        mPreview.setWebChromeClient(new WebChromeClient()); //
+        mPreview.setWebViewClient(new WebViewClient()); //
         mPreview.setInitialScale(57 * 4);
         mPreview.setWebViewClient(mWebViewClient);
 
@@ -175,7 +175,7 @@ public class WebViewLogin extends Activity implements OnClickListener,
                       InputStreamReader inputreader = new InputStreamReader(instream);
                       BufferedReader buffreader = new BufferedReader(inputreader);
                       String line;
-                      //分行读取
+                      //
                       while (( line = buffreader.readLine()) != null) {
                           Log.d(TAG,"line:"+line);
                           String[] ss = line.split("\\s{1,}");
@@ -400,7 +400,7 @@ public class WebViewLogin extends Activity implements OnClickListener,
         mAdapter.notifyDataSetInvalidated();
     }
 
-    // 打开网页的方法
+    // 锟斤拷锟斤拷页锟侥凤拷锟斤拷
     private void openUrl(String acount, String pwd) {
         mPreview.loadUrl("http://www.xnw.com/user/log_in.php?act=do_login&password="
                 + pwd + "&account=" + acount + "&type=login_info&remember_me=1"); 

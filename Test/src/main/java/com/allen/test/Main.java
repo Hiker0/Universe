@@ -23,10 +23,11 @@ import android.widget.ListView;
 public class Main extends Activity {
 
 	ListView listView = null;
-	ArrayList<String> list = new ArrayList<String>();;
+	ArrayList<String> list = new ArrayList<String>();
+	;
 
-	Class[] classes = { 
-			Check.class, 
+	Class[] classes = {
+			Check.class,
 			Demon.class,
 			Effect.class,
 			Method.class,
@@ -38,12 +39,12 @@ public class Main extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		Window win=this.getWindow();
-		int flags = LayoutParams.FLAG_DISMISS_KEYGUARD|
-				LayoutParams.FLAG_TURN_SCREEN_ON|
+		Window win = this.getWindow();
+		int flags = LayoutParams.FLAG_DISMISS_KEYGUARD |
+				LayoutParams.FLAG_TURN_SCREEN_ON |
 				LayoutParams.FLAG_KEEP_SCREEN_ON;
 		win.addFlags(flags);
-		
+
 		this.setContentView(R.layout.main_activity);
 
 		for (Class cls : classes) {
@@ -55,10 +56,11 @@ public class Main extends Activity {
 
 		listView.setAdapter(adapter);
 		listView.setOnItemClickListener(clicklistener);
-		
+
 		Intent intent = this.getIntent();
-		if(intent.getBooleanExtra("enter_saver", false)){
-		    
+
+		if (intent.getBooleanExtra("enter_saver", false)) {
+
 		}
 
 	}
