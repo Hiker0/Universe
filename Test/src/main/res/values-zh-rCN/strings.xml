@@ -40,7 +40,6 @@
     <string name="changchun">"长春"</string>
     <string name="shenyang">"沈阳"</string>
     <string name="guangzhou">"广州"</string>
-    <string name="file_selector">文件选择</string>
     <string name="pre">上一个</string>
     <string name="next">下一个</string>
     <string name="auto_login">自动登录</string>

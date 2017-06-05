@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import com.allen.test.R;
 import com.allen.test.util.ImageItem;
 import com.allen.test.view.ImageItemView;
-import com.allen.z.library.utils.ImageUtil;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -38,6 +37,7 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.allen.z.library.utils.ImageUtil;
 
 public class FrameworkSourceActivity extends Activity implements
 		OnClickListener, OnItemClickListener, OnScrollListener {

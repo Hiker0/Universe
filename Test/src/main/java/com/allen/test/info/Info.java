@@ -6,7 +6,6 @@ import com.allen.test.R;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
