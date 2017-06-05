@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">UniverseLibrary</string>
     <string name="dot_tv">:</string>
+    <string name="file_selector">文件选择</string>
 </resources>
