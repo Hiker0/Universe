@@ -260,24 +260,7 @@
             android:label="@string/app_name" >
 
         </activity>
-        <activity
-            android:name="com.allen.test.tool.platlogo.PlatLogoActivity"
-            android:label="@string/app_name" 
-            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
 
-        </activity>
-        <activity
-            android:name="com.allen.test.tool.platlogo.LLandActivity"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:hardwareAccelerated="true"
-            android:label="@string/lland"
-            android:launchMode="singleInstance"
-            android:process=":sweetsweetdesserts"
-            android:screenOrientation="locked"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
-
-        </activity>        
          <activity
             android:name="com.allen.test.tool.VirtulEvent"
             android:label="@string/app_name" >

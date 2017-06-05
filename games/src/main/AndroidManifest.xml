@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.allen.games">
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name=".Game">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.allen.games.five.FiveMain"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+
+        </activity>
+        <activity
+            android:name="com.allen.games.platlogo.PlatLogoActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+
+        </activity>
+        <activity
+            android:name="com.allen.games.platlogo.LLandActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:label="@string/lland"
+            android:launchMode="singleInstance"
+            android:process=":sweetsweetdesserts"
+            android:screenOrientation="locked"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+
+        </activity>
+    </application>
+
+</manifest>

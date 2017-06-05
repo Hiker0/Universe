@@ -46,14 +46,6 @@
     <string name="auto_login">自动登录</string>
     <string name="input_rate">输入间隔秒数</string>
     <string name="app_login">登录器</string>
-    <string name="set_continue">继续游戏</string>
-    <string name="set_redo">悔棋</string>
-    <string name="set_new">新游戏</string>
-    <string name="set_exit">退出游戏</string>
-    <string name="set_black_sucess">黑方胜！</string>
-    <string name="set_white_sucess">白方胜！</string>
-    <string name="set_timeout">对手超时！</string>
-    <string name="set_welcome">祝您游戏愉快！</string>
     <string name="le_hot_spots">微博热搜</string>
     <string name="le_hot_spots_title">微博热搜榜</string>
 </resources>

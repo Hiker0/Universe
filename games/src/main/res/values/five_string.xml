@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_continue">继续游戏</string>
+    <string name="set_redo">悔棋</string>
+    <string name="set_new">新游戏</string>
+    <string name="set_exit">退出游戏</string>
+    <string name="set_black_sucess">黑方胜！</string>
+    <string name="set_white_sucess">白方胜！</string>
+    <string name="set_timeout">对手超时！</string>
+    <string name="set_welcome">祝您游戏愉快！</string>
+</resources>
