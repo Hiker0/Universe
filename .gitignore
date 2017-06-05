@@ -10,6 +10,8 @@
 bin/
 gen/
 out/
+Test/src/main/java/com/allen/test/data/greendao/
+projectFilesBackup
 # Gradle files
 .gradle/
 build/
