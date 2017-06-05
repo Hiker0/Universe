@@ -12,7 +12,7 @@
         android:layout_height="100dp"
         android:src="@drawable/vector_battery_white"
         />
-    <com.allen.test.demon.AnimateBatteryView
+    <com.allen.test.view.AnimateBatteryView
         android:id="@+id/image2"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
