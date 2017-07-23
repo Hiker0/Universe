@@ -32,7 +32,7 @@ public class PackageInfoActivity extends Activity implements OnClickListener {
 	private final static String TAG = "PackageInfoActivity";
 	ApplicationInfo item;
 	PackageManager pm;
-	TextView nameView, sizeView, permissionView;
+	TextView nameView, installPath, sizeView, permissionView;
 	View permissionsControl, componentContainer, componentControl;
 	ListView activityView;
 	ActivityInfo[] activities;
@@ -73,6 +73,7 @@ public class PackageInfoActivity extends Activity implements OnClickListener {
 		mTitle.setText(item.loadLabel(pm));
 
 		nameView = (TextView) this.findViewById(R.id.package_name);
+		installPath = (TextView) this.findViewById(R.id.install_path);
 		sizeView = (TextView) this.findViewById(R.id.package_size);
 		permissionView = (TextView) this.findViewById(R.id.permission);
 		permissionsControl = this.findViewById(R.id.permissions_control);
@@ -138,7 +139,15 @@ public class PackageInfoActivity extends Activity implements OnClickListener {
 		sb.append("PackageName: ");
 		sb.append(item.packageName);
 		sb.append("\n");
-		sb.append("ProcessName: ");
+        try {
+            sb.append("Install path: ");
+            sb.append(pm.getApplicationInfo(item.packageName, 0).sourceDir);
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
+        }finally {
+            sb.append("\n");
+        }
+        sb.append("ProcessName: ");
 		sb.append(item.processName);
 		sb.append("\n");
 		sb.append("TaskAffinity:");

@@ -19,6 +19,85 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <!--******************* Check  *****************************-->
+        <activity
+            android:name="com.allen.developtool.check.Check"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
+        <activity
+            android:name="com.allen.developtool.check.LedCheck"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.check.LcdDot"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.check.GSensor"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.check.touch.TSP_Bound_Grid_Mode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.check.touch.TSP_Dot_Mode"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.check.touch.TSP_Grid_Mode"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <!--******************* Info  *****************************-->
+        <activity
+            android:name="com.allen.developtool.info.Info"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.info.LanguageInfo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.info.PackageListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.info.PackageInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/cust_theme" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.info.FrameworkSourceActivity"
+            android:label="@string/app_name"
+            android:theme="@style/cust_theme" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.info.PackageSourceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.info.DisplayInfo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.info.SystemInfo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.allen.developtool.info.NetworkInfo"
+            android:label="@string/app_name" >
+        </activity>
+
     </application>
 
 </manifest>

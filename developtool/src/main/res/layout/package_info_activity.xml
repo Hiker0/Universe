@@ -26,6 +26,14 @@
         android:padding="5dp"
         android:textColor="#000"
         android:typeface="monospace" />
+	<TextView
+		android:id="@+id/install_path"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:gravity="left"
+		android:padding="5dp"
+		android:textColor="#000"
+		android:typeface="monospace" />
     <TextView
         android:id="@+id/package_size"
         android:layout_width="match_parent"
