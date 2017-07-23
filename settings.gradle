@@ -1,2 +1,2 @@
-include ':Test', ':universelibrary', ':games'
+include ':Test', ':universelibrary', ':games', ':developtool'
 
